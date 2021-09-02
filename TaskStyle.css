@@ -1,0 +1,2193 @@
+@media (min-width: 1200px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    main{
+        background: url("Images/ShinyOverlay.svg") no-repeat center center fixed;
+        background-size: cover;
+    }
+    /**************menu*************/
+    nav.navbar{
+        min-width:100% ;
+        position: static;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color:#313763;
+        position: fixed;
+        top: 0;
+        z-index: 999;
+    }
+    nav.navbar>a.navbar-brand>img{
+        min-width: 75px;
+        min-height: 22px;
+        margin-left: 50px;
+    }
+    nav.navbar>ul.navbar-nav{
+        margin-right: 50px;
+    }
+    nav.navbar>ul.navbar-nav>li.nav-item>a{
+        color:#FFFFFF;
+    }
+    /******************end menu****************/
+    /***************parallax*****************/
+    section.parallax{
+        display: flex;
+        width: 100%;
+    }
+    section.parallax>img.rounded{
+        margin-top: 200px;
+        margin-left: 250px;
+        height: 650px;
+        width: 400px;
+    }
+    section.parallax>section.form{
+        width: 100%;
+    }
+    section.parallax>section.form>h1{
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 55%;
+        margin-left: 20%;
+      
+    }
+    section.parallax>section.form>p{
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+       
+    }
+    section.parallax>section.form>form{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+      
+    }
+    section.parallax>section.form>form>button{
+        margin-top: 15px;
+
+    }
+    section.parallax>section.form>span{
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+       
+    }
+    /***************end parallax*****************/
+    /*****************services******************/
+    section.service{
+        min-width:100% ;
+        min-height: 800px;
+        background-color: whitesmoke;
+        
+    }
+    section.service>section.slogan>h6{
+        font-size: 20px;
+        color: rgb(10, 10, 48);
+        text-align: center;
+        padding-top: 5%;
+    }
+    section.service>section.slogan>h3{
+        text-align: center;
+        padding-top: 3px;
+        color: #333333;
+        font-size: 35px;
+    }
+    section.service>section.content{
+        min-width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    }
+    section.service>section.content>section.service-1{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 7%;
+    }
+    section.service>section.content>section.service-1>section.check1{
+        display: inline;
+        margin-left: 55px;
+        
+    }
+    section.service>section.content>section.service-1>section.check1>i{
+        background: #98a4e0;
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        
+    }
+    section.service>section.content>section.service-1>section.check1>i.icon2{
+        background: #f77503;
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    section.service>section.content>section.service-1>section.check1>i.icon3{
+        background: rgb(212, 23, 55);
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    section.service>section.content>section.service-1>section.check1>i.icon4{
+        background: rgb(24, 214, 7);
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    section.service>section.content>section.service-1>section.check1>i.icon5{
+        background: rgb(248, 248, 3);
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    section.service>section.content>section.service-1>section.check1>i.icon6{
+        background: rgb(168, 5, 160);
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    section.service>section.content>section.service-1>section.content1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+    section.service>section.content>section.service-1>section.content1>h4{
+        font-size: 25px;
+        margin-left: 10px;
+        color: #333333;
+        display: block;
+    }
+    section.service>section.content>section.service-1>section.content1>p{
+        color: #333333;
+        margin-left: 10px;
+        width: 70%;
+    }
+    /************brands************/
+    section.brand{
+        min-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    section.brand>p{
+        font-size: 15px;
+        color: gray;
+        margin-top: 5%;
+        text-align: center;
+        
+    }
+    section.brand>section.brandimage{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    section.brand>section.brandimage>div.brand-pic>img{
+        width: 150px;
+        height: auto;
+        padding-left: 5%;
+        margin-right: 100px;
+        margin-top: 30px;
+    }
+    /*****************end services******************/
+    /*****************content****************/
+    section.content-1{
+        min-width:100% ;
+        height: auto;
+        margin: 0;
+        background-color:#FFFFFF;
+        
+    }
+    section.content-1>h3{
+        text-align: center;
+        margin-top: 8%;
+        color: rgb(80, 37, 121);
+        font-size: 20px;
+    }
+    section.content-1>h1{
+        text-align: center;
+        color: #333333;
+        margin-top: 15px;
+
+    }
+    section.explain{
+        width: 100%;
+        
+    }
+    section.explain>section.content-2{
+      /*  min-width:100% ;*/
+        display: flex;
+        flex-direction: row-reverse;
+         justify-content: left; 
+        height: 600px;
+        background-color:#FFFFFF;
+        
+    }
+    section.explain>section.content-2>section.content-box{
+        width: 550px;
+        height: 460px;
+        margin-right: 10%;
+        margin-left: 25%;
+        margin-top: 40px;
+        justify-content: right;
+        background-color: #FFFFFF;
+        border-top: 10px solid purple;
+        border-radius: 15px;
+        box-shadow:8px 8px 8px lightgrey,-8px 8px 8px lightgrey,-8px -8px 8px lightgrey;
+    }
+    section.explain>section.content-2>section.content-box>p{
+        margin: 25px auto;
+        padding-left: 20px;
+        text-align: justify;
+        font-family: 15px;
+        color: gray;
+        font-family: sans-serif;
+    }
+    section.explain>section.content-2>section.content-box>div.check-box{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin: 30px auto;
+    }
+    section.explain>section.content-2>section.content-box>div.check-box>i{
+        font-size: 25px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    section.explain>section.content-2>section.content-box>div.check-box>h4{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    section.explain>section.chapter{
+        margin-top: 5%;
+        justify-content: left;
+    }
+    div.chapter1{
+        margin-left: 30px;
+    }
+
+    div.chapter1>h5{
+        font-family: sans-serif;
+        color: gray;
+        font-size: 26px;
+    }
+    div.chapter1>h4{
+        font-family: sans-serif;
+        color:#333333;
+        font-size: 22px;
+    }
+    /*****************end content****************/
+    /******************comments*****************/
+    
+    section.title{
+        min-width: 100%;
+        height: auto;
+        background-color: #F6F9FC;
+        padding-bottom: 100px;
+    }
+    section.title>div>h6{
+        padding-top: 8%;
+        text-align: center;
+        margin-top: 8%;
+        color: rgb(80, 37, 121);
+    }
+    section.title>div>h2{
+        text-align: center;
+        color: #333333;
+        margin-top: 15px;
+    }
+    section.title>section.rate{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    section.rate-1{
+        width: 350px;
+        margin-left: 50px;
+        margin-top: 7%;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        padding-left: 10px;
+        box-shadow:4px 4px 4px lightgrey,-4px 4px 4px lightgrey,-4px -4px 4px lightgrey;
+    }
+    section.rate>section.rate-1>i{
+        color: rgb(255, 123, 0);
+        padding-top: 10px;
+    }
+    section.rate>section.rate-1>p{
+        color: gray;
+        font-size: 18px;
+        line-height: 30px;
+        padding: 15px 5px 0;
+        width: 100%;
+    }
+    section.rate>section.rate-1>div.image>img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+    section.rate>section.rate-1>div.image>h4{
+        font-size: 20px;
+        color: gray;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    section.rate>section.rate-1>div.image>h5{
+        font-size: 15px;
+        color: gray;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-bottom: 5px;
+    }
+    /******************end comments*****************/
+    /*******************about********************/
+    section.about{
+        min-width: 100%;
+        height: auto;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 10%;
+    }
+    section.about>h6{
+        padding-top: 8%;
+        text-align: center;
+        margin-top: 8%;
+        font-size: 20px;
+        color: rgb(80, 37, 121);
+    }
+    section.about>h2{
+        text-align: center;
+        color: #333333;
+        margin-top: 15px; 
+        font-size: 45px;
+    }
+    section.about>img{
+        width: 120px;
+        height: 120px;
+        margin-left: 35%;
+        margin-top: 25px;
+    }
+    section.about>h4{
+        display: inline;
+        color: #333333;
+        text-align: center;
+    }
+    section.about>p{
+        width: 30%;
+        text-align: left;
+        color: #333333;
+        margin-top: 15px; 
+        font-size: 16px;
+        margin-left: 45%;
+        direction: ltr;
+    }
+    section.about>span{
+        text-align: center;
+        margin-left:50px ;
+    }
+    /*******************end about********************/
+    /******************footer*****************/
+    footer.footer{
+        min-width: 100%;
+        height: 350px;
+        background: url("Images/wave.svg")no-repeat center center ;
+        background-size: cover;
+        position: absolute;
+    }
+    footer.footer>span{
+        color:whitesmoke;
+        font-family: 'Courier New', Courier, monospace;
+        position: absolute;
+        bottom: 25px;
+        left: 25px;
+        font-size: 23px;
+
+
+    }
+    /******************end footer*****************/
+
+}
+@media (min-width: 990px) and (max-width: 1200px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    main{
+        background: url("Images/ShinyOverlay.svg") no-repeat center center fixed;
+        background-size: cover;
+    }
+    /**************menu*************/
+    nav.navbar{
+        min-width:100% ;
+        position: static;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color:#313763;
+        position: fixed;
+        top: 0;
+    }
+    nav.navbar>a.navbar-brand>img{
+        width: 75px;
+        height: 22px;
+        margin-left: 50px;
+    }
+    nav.navbar>ul.navbar-nav{
+        margin-right: 50px;
+    }
+    nav.navbar>ul.navbar-nav>li.nav-item>a{
+        color:#FFFFFF;
+    }
+    /******************end menu****************/
+    /***************parallax*****************/
+    section.parallax{
+       display: flex;
+    }
+    section.parallax>img.rounded{
+        margin-top: 140px;
+        margin-left: 150px;
+        height: 550px;
+        width: 380px;
+        padding-bottom: 20px;
+        
+    }
+    section.parallax>section.form{
+        width: 100%;
+        
+    }
+    section.parallax>section.form>h1{
+        color: #FFFFFF;
+        margin-top: 35%;
+        margin-left: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    section.parallax>section.form>p{
+        display: flex;
+        flex-direction: column;
+        color: #FFFFFF;
+        margin-left: 10%;
+        font-size: 20px;
+    }
+    section.parallax>section.form>form{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    section.parallax>section.form>form>button{
+        margin-top: 15px;
+
+    }
+    section.parallax>section.form>span{
+        color: #FFFFFF;
+        font-size: 13px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        /*position: absolute;
+        bottom: 135px;
+        right: 485px;*/
+    }
+    /***************end parallax*****************/
+     /*****************services******************/
+     section.service{
+        min-width:100% ;
+        height: 800px;
+        background-color: whitesmoke;
+      /*  display: flex;
+        flex-direction: row;*/
+        
+    }
+    section.service>section.slogan>h6{
+        font-size: 20px;
+        color: rgb(10, 10, 48);
+        text-align: center;
+        padding-top: 5%;
+    }
+    section.service>section.slogan>h3{
+        text-align: center;
+        padding-top: 3px;
+        color: #333333;
+        font-size: 35px;
+    }
+    section.service>section.content{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    }
+    section.service>section.content>section.service-1{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 7%;
+    }
+    section.service>section.content>section.service-1>section.check1{
+        display: inline;
+        margin-left: 55px;
+        
+    }
+    section.service>section.content>section.service-1>section.check1>i{
+        background: #98a4e0;
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        
+    }
+    section.service>section.content>section.service-1>section.check1>i.icon2{
+        background: #f77503;
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    section.service>section.content>section.service-1>section.check1>i.icon3{
+        background: rgb(212, 23, 55);
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    section.service>section.content>section.service-1>section.check1>i.icon4{
+        background: rgb(24, 214, 7);
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    section.service>section.content>section.service-1>section.check1>i.icon5{
+        background: rgb(248, 248, 3);
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    section.service>section.content>section.service-1>section.check1>i.icon6{
+        background: rgb(168, 5, 160);
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    section.service>section.content>section.service-1>section.content1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-right: 10px;
+        
+    }
+    section.service>section.content>section.service-1>section.content1>h4{
+        font-size: 25px;
+        margin-left: 10px;
+        color: #333333;
+        display: block;
+    }
+    section.service>section.content>section.service-1>section.content1>p{
+        color: #333333;
+        margin-left: 10px;
+        width: 60%;
+    }
+    /************brands************/
+    section.brand{
+        min-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    section.brand>p{
+        font-size: 15px;
+        color: gray;
+        margin-top: 5%;
+        text-align: center;
+        
+    }
+    section.brand>section.brandimage{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    section.brand>section.brandimage>div.brand-pic>img{
+        width: 150px;
+        height: auto;
+        padding-left: 5%;
+        margin-right: 100px;
+        margin-top: 30px;
+    }
+    /*****************end services******************/
+    /*****************content****************/
+    section.content-1{
+        min-width:100% ;
+        height: auto;
+        margin: 0;
+        background-color:#FFFFFF;
+    }
+    section.content-1>h3{
+        text-align: center;
+        margin-top: 8%;
+        color: rgb(80, 37, 121);
+        font-size: 20px;
+    }
+    section.content-1>h1{
+        text-align: center;
+        color: #333333;
+        margin-top: 15px;
+
+    }
+    section.explain{
+        width: 100%;
+    }
+    
+    section.explain>section.content-2{
+        /*  min-width:100% ;*/
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: left; 
+        height: 600px;
+        background-color:#FFFFFF;
+          
+      }
+    section.explain>section.content-2>section.content-box{
+        width: 560px;
+        height: 460px;
+        margin-right: 10%;
+        margin-left: 25%;
+        margin-top: 40px;
+        justify-content: right;
+        background-color: #FFFFFF;
+        border-top: 10px solid purple;
+        border-radius: 15px;
+        box-shadow:8px 8px 8px lightgrey,-8px 8px 8px lightgrey,-8px -8px 8px lightgrey;
+    }
+    section.explain>section.content-2>section.content-box>p{
+        margin: 25px auto;
+        padding-left: 25px;
+        padding-right: 20px;
+        text-align: justify;
+        font-size: 13px;
+        color: gray;
+        font-family: sans-serif;
+    }
+    section.explain>section.content-2>section.content-box>div.check-box{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin: 30px auto;
+    }
+    section.explain>section.content-2>section.content-box>div.check-box>i{
+        font-size: 25px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    section.explain>section.content-2>section.content-box>div.check-box>h4{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    section.explain>section.chapter{
+        margin-top: 5%;
+        justify-content: left;
+        
+    }
+    div.chapter1>h5{
+        font-family: sans-serif;
+        color: gray;
+        font-size: 25px;
+    }
+    div.chapter1>h4{
+        font-family: sans-serif;
+        color:#333333;
+        font-size: 20px;
+    }
+    /*****************end content****************/
+    /******************comments*****************/
+    
+    section.title{
+        min-width: 100%;
+        height: auto;
+        background-color: #F6F9FC;
+        padding-right: 25px;
+        padding-bottom: 50px;
+    }
+    section.title>div>h6{
+        padding-top: 8%;
+        text-align: center;
+        margin-top: 8%;
+        color: rgb(80, 37, 121);
+    }
+    section.title>div>h2{
+        text-align: center;
+        color: #333333;
+        margin-top: 15px;
+    }
+    section.title>section.rate{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    section.rate-1{
+        width: 350px;
+        margin-left: 50px;
+        margin-top: 7%;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        padding-left: 10px;
+        box-shadow:4px 4px 4px lightgrey,-4px 4px 4px lightgrey,-4px -4px 4px lightgrey;
+    }
+    section.rate>section.rate-1>i{
+        color: rgb(255, 123, 0);
+        padding-top: 10px;
+    }
+    section.rate>section.rate-1>p{
+        color: gray;
+        font-size: 18px;
+        line-height: 30px;
+        padding: 15px 5px 0;
+        width: 100%;
+    }
+    section.rate>section.rate-1>div.image>img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+    section.rate>section.rate-1>div.image>h4{
+        font-size: 20px;
+        color: gray;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    section.rate>section.rate-1>div.image>h5{
+        font-size: 15px;
+        color: gray;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-bottom: 5px;
+    }
+    /******************end comments*****************/
+    /*******************about********************/
+    section.about{
+        min-width: 100%;
+        height: auto;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 10%;
+    }
+    section.about>h6{
+        padding-top: 8%;
+        text-align: center;
+        margin-top: 8%;
+        font-size: 20px;
+        color: rgb(80, 37, 121);
+    }
+    section.about>h2{
+        text-align: center;
+        color: #333333;
+        margin-top: 15px; 
+        font-size: 45px;
+    }
+    section.about>img{
+        width: 120px;
+        height: 120px;
+        margin-left: 35%;
+        margin-top: 25px;
+    }
+    section.about>h4{
+        display: inline;
+        color: #333333;
+        text-align: center;
+    }
+    section.about>p{
+        width: 30%;
+        text-align: left;
+        color: #333333;
+        margin-top: 15px; 
+        font-size: 16px;
+        margin-left: 45%;
+        direction: ltr;
+    }
+    section.about>span{
+        text-align: center;
+        margin-left:50px ;
+    }
+    /*******************end about********************/
+    /******************footer*****************/
+    footer.footer{
+        min-width: 100%;
+        height: 350px;
+        background: url("Images/wave.svg")no-repeat center center ;
+        background-size: cover;
+        position: absolute;
+    }
+    footer.footer>span{
+        color:whitesmoke;
+        font-family: 'Courier New', Courier, monospace;
+        position: absolute;
+        bottom: 25px;
+        left: 25px;
+        font-size: 23px;
+
+
+    }
+    /******************end footer*****************/
+
+}
+@media (min-width: 760px) and (max-width: 990px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    main{
+        background: url("Images/ShinyOverlay.svg") no-repeat center center fixed;
+        background-size: cover;
+    }
+    /**************menu*************/
+    nav.navbar{
+        min-width:100% ;
+        position: static;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #313763;
+        position: fixed;
+        top: 0;
+    }
+    nav.navbar>a.navbar-brand>img{
+        width: 73px;
+        height: 22px;
+        margin-left: 50px;
+    }
+    nav.navbar>ul.navbar-nav{
+        margin-right: 50px;
+    }
+    nav.navbar>ul.navbar-nav>li.nav-item>a{
+        color:#FFFFFF;
+    }
+    /******************end menu****************/
+    /***************parallax*****************/
+    section.parallax>img.rounded{
+        /*margin-top: 110px;
+        margin-left: 150px;*/
+        margin-top: 100px;
+        margin-left: 32%;
+        height: 500px;
+        width: 300px;
+    }
+    section.parallax>section.form>h1{
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 32px;
+       /* position: absolute;
+        top: 30%;
+        right: 10%;*/
+    }
+    section.parallax>section.form>p{
+        color: #FFFFFF;
+        font-size: 17px;
+        text-align: center;
+       /* position: absolute;
+        top: 45%;
+        right: 5%;*/
+    
+    }
+    section.parallax>section.form>form{
+        width: 40%;
+        margin-left: 280px;
+        /*position: absolute;
+        bottom: 160px;
+        right: 340px;*/
+        
+    }
+    section.parallax>section.form>form>button{
+        margin-top: 15px;
+        margin-top: 10px;
+
+    }
+    section.parallax>section.form>span{
+        color: #FFFFFF;
+        font-size: 13px;
+        margin-left: 280px;
+    }
+    /***************end parallax*****************/
+     /*****************services******************/
+     section.service{
+        min-width:100% ;
+        height: auto;
+        background-color: whitesmoke;
+      /*  display: flex;
+        flex-direction: row;*/
+        
+    }
+    section.service>section.slogan>h6{
+        font-size: 20px;
+        color: rgb(10, 10, 48);
+        text-align: center;
+        padding-top: 5%;
+    }
+    section.service>section.slogan>h3{
+        text-align: center;
+        padding-top: 3px;
+        color: #333333;
+        font-size: 35px;
+    }
+    section.service>section.content{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    }
+    section.service>section.content>section.service-1{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 7%;
+    }
+    section.service>section.content>section.service-1>section.check1{
+        display: inline;
+        margin-left: 55px;
+        
+    }
+    section.service>section.content>section.service-1>section.check1>i{
+        background: #98a4e0;
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        
+    }
+    section.service>section.content>section.service-1>section.check1>i.icon2{
+        background: #f77503;
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    section.service>section.content>section.service-1>section.check1>i.icon3{
+        background: rgb(212, 23, 55);
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    section.service>section.content>section.service-1>section.check1>i.icon4{
+        background: rgb(24, 214, 7);
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    section.service>section.content>section.service-1>section.check1>i.icon5{
+        background: rgb(248, 248, 3);
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    section.service>section.content>section.service-1>section.check1>i.icon6{
+        background: rgb(168, 5, 160);
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    section.service>section.content>section.service-1>section.content1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+    section.service>section.content>section.service-1>section.content1>h4{
+        font-size: 25px;
+        margin-left: 10px;
+        color: #333333;
+        display: block;
+    }
+    section.service>section.content>section.service-1>section.content1>p{
+        color: #333333;
+        margin-left: 10px;
+    }
+    /************brands************/
+    section.brand{
+        min-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    section.brand>p{
+        font-size: 15px;
+        color: gray;
+        margin-top: 5%;
+        text-align: center;
+        
+    }
+    section.brand>section.brandimage{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    section.brand>section.brandimage>div.brand-pic>img{
+        width: 150px;
+        height: auto;
+        padding-left: 5%;
+        margin-right: 100px;
+        margin-top: 30px;
+    }
+    /*****************end services******************/
+    /*****************content****************/
+    section.content-1{
+        min-width:100% ;
+        height: auto;
+        margin: 0;
+        background-color:#FFFFFF;
+    }
+    section.content-1>h3{
+        text-align: center;
+        margin-top: 8%;
+        color: rgb(80, 37, 121);
+        font-size: 20px;
+    }
+    section.content-1>h1{
+        text-align: center;
+        color: #333333;
+        margin-top: 15px;
+
+    }
+    section.explain{
+        width: 100%;
+    }
+    
+    section.explain>section.content-2{
+        /*  min-width:100% ;*/
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: left; 
+        height: 600px;
+        background-color:#FFFFFF;
+          
+      }
+    section.explain>section.content-2>section.content-box{
+        width: 600px;
+        height: 460px;
+        margin-right: 10%;
+        margin-left: 25%;
+        margin-top: 40px;
+        justify-content: right;
+        background-color: #FFFFFF;
+        border-top: 10px solid purple;
+        border-radius: 15px;
+        box-shadow:8px 8px 8px lightgrey,-8px 8px 8px lightgrey,-8px -8px 8px lightgrey;
+    }
+    section.explain>section.content-2>section.content-box>p{
+        margin: 25px auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: justify;
+        font-size: 12px;
+        color: gray;
+        font-family: sans-serif;
+    }
+    section.explain>section.content-2>section.content-box>div.check-box{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin: 30px auto;
+    }
+    section.explain>section.content-2>section.content-box>div.check-box>i{
+        font-size: 25px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    section.explain>section.content-2>section.content-box>div.check-box>h4{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    section.explain>section.chapter{
+        margin-top: 5%;
+        justify-content: left;
+    }
+    div.chapter1>h5{
+        font-family: sans-serif;
+        color: gray;
+        font-size: 23px;
+    }
+    div.chapter1>h4{
+        font-family: sans-serif;
+        color:#333333;
+        font-size: 19px;
+    }
+    /*****************end content****************/
+    /******************comments*****************/
+    
+    section.title{
+        min-width: 100%;
+        height: auto;
+        background-color: #F6F9FC;
+        padding-bottom: 50px;
+    }
+    section.title>div>h6{
+        padding-top: 8%;
+        text-align: center;
+        margin-top: 8%;
+        color: rgb(80, 37, 121);
+    }
+    section.title>div>h2{
+        text-align: center;
+        color: #333333;
+        margin-top: 15px;
+    }
+    section.title>section.rate{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    section.rate-1{
+        width: 350px;
+        margin-left: 50px;
+        margin-top: 7%;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        padding-left: 10px;
+        box-shadow:4px 4px 4px lightgrey,-4px 4px 4px lightgrey,-4px -4px 4px lightgrey;
+    }
+    section.rate>section.rate-1>i{
+        color: rgb(255, 123, 0);
+        padding-top: 10px;
+    }
+    section.rate>section.rate-1>p{
+        color: gray;
+        font-size: 18px;
+        line-height: 30px;
+        padding: 15px 5px 0;
+        width: 100%;
+    }
+    section.rate>section.rate-1>div.image>img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+    section.rate>section.rate-1>div.image>h4{
+        font-size: 20px;
+        color: gray;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    section.rate>section.rate-1>div.image>h5{
+        font-size: 15px;
+        color: gray;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-bottom: 5px;
+    }
+    /******************end comments*****************/
+    /*******************about********************/
+    section.about{
+        min-width: 100%;
+        height: auto;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 10%;
+    }
+    section.about>h6{
+        padding-top: 8%;
+        text-align: center;
+        margin-top: 8%;
+        font-size: 20px;
+        color: rgb(80, 37, 121);
+    }
+    section.about>h2{
+        text-align: center;
+        color: #333333;
+        margin-top: 15px; 
+        font-size: 45px;
+    }
+    section.about>img{
+        width: 120px;
+        height: 120px;
+        margin-left: 35%;
+        margin-top: 25px;
+    }
+    section.about>h4{
+        display: inline;
+        color: #333333;
+        text-align: center;
+    }
+    section.about>p{
+        width: 40%;
+        text-align: left;
+        color: #333333;
+        margin-top: 15px; 
+        font-size: 16px;
+        margin-left: 45%;
+        direction: ltr;
+    }
+    section.about>span{
+        text-align: center;
+        margin-left:50px ;
+    }
+    /*******************end about********************/
+    /******************footer*****************/
+    footer.footer{
+        min-width: 100%;
+        height: 350px;
+        background: url("Images/wave.svg")no-repeat center center ;
+        background-size: cover;
+        position: absolute;
+    }
+    footer.footer>span{
+        color:whitesmoke;
+        font-family: 'Courier New', Courier, monospace;
+        position: absolute;
+        bottom: 25px;
+        left: 25px;
+        font-size: 23px;
+
+
+    }
+    /******************end footer*****************/
+}
+@media (min-width: 540px) and (max-width:760px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    main{
+        background: url("Images/ShinyOverlay.svg") no-repeat center center fixed;
+        background-size: cover;
+    }
+    /**************menu*************/
+    nav.navbar{
+        min-width:100% ;
+        position: static;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color:#313763;
+      /*  position: fixed;
+        top: 0;
+        z-index: 999;*/
+    }
+    nav.navbar>a.navbar-brand>img{
+        width: 65px;
+        height: 13px;
+        margin-left: 0px;
+    }
+    nav.navbar>ul.navbar-nav{
+        margin-right: 50px;
+    }
+    nav.navbar>ul.navbar-nav>li.nav-item{
+        display: flex;
+        flex-direction: row;
+        align-content: space-around;
+    }
+    nav.navbar>ul.navbar-nav>li.nav-item>a{
+        font-size: 15px;
+        color:#FFFFFF;
+    }
+    /******************end menu****************/
+    /***************parallax*****************/
+    section.parallax>img.rounded{
+        margin-top: 200px;
+        margin-left: 22%;
+        height: 340px;
+        width: 370px;
+    }
+    section.parallax>section.form>h1{
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 45px;
+        font-size: 25px;
+    }
+    section.parallax>section.form>p{
+        color: #FFFFFF;
+        font-size: 15px;
+        text-align: center;
+    }
+    section.parallax>section.form>form{
+        width: 350px;
+        text-align: center;
+        width: 350px;
+        margin-left: 27%;
+    }
+    section.parallax>section.form>form>button{
+        margin-top: 15px;
+        width: 350px;
+
+    }
+    section.parallax>section.form>span{
+        color: #FFFFFF;
+        font-size: 13px;
+        text-align: center;
+        font-size: 10px;
+        margin-left: 27%;
+    }
+    /***************end parallax*****************/
+     /*****************services******************/
+     section.service{
+        min-width:100% ;
+        height: auto;
+        background-color: whitesmoke;
+        
+    }
+    section.service>section.slogan>h6{
+        font-size: 20px;
+        color: rgb(10, 10, 48);
+        text-align: center;
+        padding-top: 5%;
+    }
+    section.service>section.slogan>h3{
+        text-align: center;
+        padding-top: 3px;
+        color: #333333;
+        font-size: 35px;
+    }
+    section.service>section.content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    section.service>section.content>section.service-1{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 7%;
+    }
+    section.service>section.content>section.service-1>section.check1{
+      /*  display: inline;*/
+        margin-left: 55px;
+        
+    }
+    section.service>section.content>section.service-1>section.check1>i{
+        background: #98a4e0;
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        
+    }
+    section.service>section.content>section.service-1>section.check1>i.icon2{
+        background: #f77503;
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    section.service>section.content>section.service-1>section.check1>i.icon3{
+        background: rgb(212, 23, 55);
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    section.service>section.content>section.service-1>section.check1>i.icon4{
+        background: rgb(24, 214, 7);
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    section.service>section.content>section.service-1>section.check1>i.icon5{
+        background: rgb(248, 248, 3);
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    section.service>section.content>section.service-1>section.check1>i.icon6{
+        background: rgb(168, 5, 160);
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    section.service>section.content>section.service-1>section.content1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+    section.service>section.content>section.service-1>section.content1>h4{
+        font-size: 25px;
+        margin-left: 10px;
+        color: #333333;
+        display: block;
+    }
+    section.service>section.content>section.service-1>section.content1>p{
+        color: #333333;
+        margin-left: 10px;
+        padding-right: 15px;
+    }
+    /************brands************/
+    section.brand{
+        min-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    section.brand>p{
+        font-size: 15px;
+        color: gray;
+        margin-top: 5%;
+        text-align: center;
+        
+    }
+    section.brand>section.brandimage{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 15px;
+        margin-left: 15%;
+
+    }
+    section.brand>section.brandimage>div.brand-pic>img{
+        width: 150px;
+        height: auto;
+        padding-left: 5%;
+        margin-right: 90px;
+        margin-top: 30px;
+    }
+    /*****************end services******************/
+    /*****************content****************/
+    section.content-1{
+        min-width:100% ;
+        height: auto;
+        margin: 0;
+        background-color:#FFFFFF;
+    }
+    section.content-1>h3{
+        text-align: center;
+        margin-top: 8%;
+        color: rgb(80, 37, 121);
+        font-size: 20px;
+    }
+    section.content-1>h1{
+        text-align: center;
+        color: #333333;
+        margin-top: 15px;
+
+    }
+    section.explain{
+        width: 100%;
+    }
+    
+    section.explain>section.content-2{
+        /*  min-width:100% ;*/
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: left; 
+        height: 600px;
+        background-color:#FFFFFF;
+          
+      }
+    section.explain>section.content-2>section.content-box{
+        width: 600px;
+        height: 560px;
+        margin-right: 10%;
+        margin-left: 25%;
+        margin-top: 40px;
+        justify-content: right;
+        background-color: #FFFFFF;
+        border-top: 10px solid purple;
+        border-radius: 15px;
+        box-shadow:8px 8px 8px lightgrey,-8px 8px 8px lightgrey,-8px -8px 8px lightgrey;
+    }
+    section.explain>section.content-2>section.content-box>p{
+        margin: 25px auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: justify;
+        font-size: 12px;
+        color: gray;
+        font-family: sans-serif;
+    }
+    section.explain>section.content-2>section.content-box>div.check-box{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin: 30px auto;
+    }
+    section.explain>section.content-2>section.content-box>div.check-box>i{
+        font-size: 25px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    section.explain>section.content-2>section.content-box>div.check-box>h4{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+    }
+    section.explain>section.chapter{
+        margin-top: 5%;
+        justify-content: left;
+        width: 100%;
+        display: flex;
+    }
+    section.explain>section.chapter>div.chapter1{
+        margin-left: 10%;
+        margin-top: 5px;
+    }
+    div.chapter1.nav-link{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    div.chapter1>h5{
+        font-family: sans-serif;
+        color: gray;
+        font-size: 20px;
+    }
+    div.chapter1>h4{
+        font-family: sans-serif;
+        color:#333333;
+        font-size: 18px;
+    }
+    /*****************end content****************/
+    /******************comments*****************/
+    
+    section.title{
+        min-width: 100%;
+        height: auto;
+        background-color: #F6F9FC;
+        padding-bottom: 45px;
+    }
+    section.title>div>h6{
+        padding-top: 8%;
+        text-align: center;
+        margin-top: 8%;
+        color: rgb(80, 37, 121);
+    }
+    section.title>div>h2{
+        text-align: center;
+        color: #333333;
+        margin-top: 15px;
+    }
+    section.title>section.rate{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    section.rate-1{
+        width: 350px;
+        margin-left: 50px;
+        margin-top: 7%;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        padding-left: 10px;
+        box-shadow:4px 4px 4px lightgrey,-4px 4px 4px lightgrey,-4px -4px 4px lightgrey;
+    }
+    section.rate>section.rate-1>i{
+        color: rgb(255, 123, 0);
+        padding-top: 10px;
+    }
+    section.rate>section.rate-1>p{
+        color: gray;
+        font-size: 18px;
+        line-height: 30px;
+        padding: 15px 5px 0;
+        width: 100%;
+    }
+    section.rate>section.rate-1>div.image>img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+    section.rate>section.rate-1>div.image>h4{
+        font-size: 20px;
+        color: gray;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    section.rate>section.rate-1>div.image>h5{
+        font-size: 15px;
+        color: gray;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-bottom: 5px;
+    }
+    /******************end comments*****************/
+    /*******************about********************/
+    section.about{
+        min-width: 100%;
+        height: auto;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 10%;
+    }
+    section.about>h6{
+        padding-top: 8%;
+        text-align: center;
+        margin-top: 8%;
+        font-size: 20px;
+        color: rgb(80, 37, 121);
+    }
+    section.about>h2{
+        text-align: center;
+        color: #333333;
+        margin-top: 15px; 
+        font-size: 45px;
+    }
+    section.about>img{
+        width: 120px;
+        height: 120px;
+        margin-left: 35%;
+        margin-top: 25px;
+    }
+    section.about>h4{
+        display: inline;
+        color: #333333;
+        text-align: center;
+    }
+    section.about>p{
+        width: 45%;
+        text-align: left;
+        color: #333333;
+        margin-top: 15px; 
+        font-size: 16px;
+        margin-left: 45%;
+        direction: ltr;
+    }
+    section.about>span{
+        text-align: center;
+        margin-left:50px ;
+    }
+    /*******************end about********************/
+    /******************footer*****************/
+    footer.footer{
+        min-width: 100%;
+        height: 350px;
+        background: url("Images/wave.svg")no-repeat center center ;
+        background-size: cover;
+        position: absolute;
+    }
+    footer.footer>span{
+        color:whitesmoke;
+        font-family: 'Courier New', Courier, monospace;
+        position: absolute;
+        bottom: 25px;
+        left: 25px;
+        font-size: 23px;
+
+
+    }
+    /******************end footer*****************/
+
+}
+@media  (max-width:540px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    main{
+        background: url("Images/ShinyOverlay.svg") no-repeat center center fixed;
+        background-size: cover;
+    }
+    /**************menu*************/
+    nav.navbar{
+        min-width:100% ;
+        min-height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color:#313763;
+    }
+    nav.navbar>a.navbar-brand>img{
+        width: 55px;
+        height: 22px;
+        margin-left: 24%;
+    }
+    nav.navbar>ul.navbar-nav{
+        margin-right: 50px;
+        margin-left: 24%;
+        
+    }
+    nav.navbar>ul.navbar-nav>li.nav-item>a.nav-link{
+        color:#FFFFFF;
+
+    }
+
+    /******************end menu****************/
+   /***************parallax*****************/
+    section.parallax>img.rounded{
+        margin-top: 255px;
+        margin-left: 85px;
+        height: 350px;
+        width: 300px;
+    }
+    section.parallax>section.form>h1{
+        color: #FFFFFF;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 35%;
+        margin-left: 20%;
+    }
+    section.parallax>section.form>p{
+        color: #FFFFFF;
+       /* width: 52%;*/
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+    }
+    section.parallax>section.form>form{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+    }
+    section.parallax>section.form>form>button{
+        margin-top: 15px;
+        margin-bottom: 8px;
+
+    }
+    section.parallax>section.form>span{
+        color: #FFFFFF;
+        font-size: 13px;
+        text-align: center;
+        font-size: 12px;
+        margin-left: 80px;
+    }
+    /***************end parallax*****************/
+     /*****************services******************/
+     section.service{
+        min-width:100% ;
+        height: auto;
+        background-color: whitesmoke;
+        padding-bottom: 50px;
+    }
+    section.service>section.slogan>h6{
+        font-size: 15px;
+        color: rgb(10, 10, 48);
+        text-align: center;
+        padding-top: 5%;
+    }
+    section.service>section.slogan>h3{
+        text-align: center;
+        padding-top: 3px;
+        color: #333333;
+        font-size: 30px;
+    }
+    section.service>section.content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    section.service>section.content>section.service-1{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 7%;
+    }
+    section.service>section.content>section.service-1>section.check1{
+        display: flex;
+        flex-direction: row;
+        margin-left: 55px;
+        
+    }
+    section.service>section.content>section.service-1>section.check1>i{
+        background: #98a4e0;
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        
+    }
+    section.service>section.content>section.service-1>section.check1>i.icon2{
+        background: #f77503;
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    section.service>section.content>section.service-1>section.check1>i.icon3{
+        background: rgb(212, 23, 55);
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    section.service>section.content>section.service-1>section.check1>i.icon4{
+        background: rgb(24, 214, 7);
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    section.service>section.content>section.service-1>section.check1>i.icon5{
+        background: rgb(248, 248, 3);
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    section.service>section.content>section.service-1>section.check1>i.icon6{
+        background: rgb(168, 5, 160);
+        font-size: 51px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    section.service>section.content>section.service-1>section.content1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+    section.service>section.content>section.service-1>section.content1>h4{
+        font-size: 20px;
+        margin-left: 15px;
+        padding-left: 10px;
+        color: #333333;
+        display: block;
+    }
+    section.service>section.content>section.service-1>section.content1>p{
+        color: #333333;
+        margin-left: 15px;
+        padding-left: 15px;
+        padding-right: 10px;
+    }
+    /************brands************/
+    section.brand{
+        min-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    section.brand>p{
+        font-size: 15px;
+        color: gray;
+        margin-top: 5%;
+        text-align: center;
+        
+    }
+    section.brand>section.brandimage{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    section.brand>section.brandimage>div.brand-pic>img{
+        width: 150px;
+        height: auto;
+        padding-left: 5%;
+        margin-right: 100px;
+        margin-top: 30px;
+    }
+    /*****************end services******************/
+    /*****************content****************/
+    section.content-1{
+        min-width:100% ;
+        height: auto;
+        margin: 0;
+        background-color:#FFFFFF;
+        position: relative;
+    }
+    section.content-1>h3{
+        text-align: center;
+        margin-top: 8%;
+        color: rgb(80, 37, 121);
+        font-size: 15px;
+    }
+    section.content-1>h1{
+        text-align: center;
+        color: #333333;
+        margin-top: 10px;
+
+    }
+    section.explain{
+        width: 100%;
+    }
+    
+    section.explain>section.content-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: left; 
+        height: auto;
+        background-color:#FFFFFF;
+          
+      }
+    section.explain>section.content-2>section.content-box{
+        width: 400px;
+        height: 530px;
+        margin-right: 10%;
+        margin-left: 5%;
+        margin-top: 40px;
+        justify-content: right;
+        background-color: #FFFFFF;
+        border-top: 10px solid purple;
+        border-radius: 15px;
+        box-shadow:8px 8px 8px lightgrey,-8px 8px 8px lightgrey,-8px -8px 8px lightgrey;
+    }
+    section.explain>section.content-2>section.content-box>p{
+        margin: 25px auto;
+        padding-left: 20px;
+        text-align: justify;
+        font-size: 12px;
+        color: gray;
+        font-family: sans-serif;
+    }
+    section.explain>section.content-2>section.content-box>div.check-box{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin: 30px auto;
+    }
+    section.explain>section.content-2>section.content-box>div.check-box>i{
+        font-size: 25px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    section.explain>section.content-2>section.content-box>div.check-box>h4{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 25px;
+    }
+    section.explain>section.chapter{
+        margin-top: 5%;
+        justify-content: left;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+     }
+     div.chapter1.nav-link{
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+         padding-top: 25px;
+     }
+    section.explain>section.chapter>div.chapter1{
+        margin-left: 10%;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    div.chapter1>h5{
+        font-family: sans-serif;
+        color: gray;
+        font-size: 17px;
+    }
+    div.chapter1>h4{
+        font-family: sans-serif;
+        color: gray;
+        font-size: 14px;
+    }
+    /*****************end content****************/
+    /******************comments*****************/
+    
+    section.title{
+        min-width: 100%;
+        height: auto;
+        background-color: #F6F9FC;
+        padding-bottom: 30px;
+    }
+    section.title>div>h6{
+        padding-top: 8%;
+        text-align: center;
+        margin-top: 8%;
+        color: rgb(80, 37, 121);
+    }
+    section.title>div>h2{
+        text-align: center;
+        color: #333333;
+        margin-top: 15px;
+    }
+    section.title>section.rate{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    section.rate-1{
+        width: 350px;
+        margin-left: 50px;
+        margin-top: 7%;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        padding-left: 10px;
+        box-shadow:4px 4px 4px lightgrey,-4px 4px 4px lightgrey,-4px -4px 4px lightgrey;
+    }
+    section.rate>section.rate-1>i{
+        color: rgb(255, 123, 0);
+        padding-top: 10px;
+    }
+    section.rate>section.rate-1>p{
+        color: gray;
+        font-size: 18px;
+        line-height: 30px;
+        padding: 15px 5px 0;
+        width: 100%;
+    }
+    section.rate>section.rate-1>div.image>img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+    section.rate>section.rate-1>div.image>h4{
+        font-size: 20px;
+        color: gray;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    section.rate>section.rate-1>div.image>h5{
+        font-size: 15px;
+        color: gray;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-bottom: 5px;
+    }
+    /******************end comments*****************/
+    /*******************about********************/
+    section.about{
+        min-width: 100%;
+        height: auto;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 10%;
+    }
+    section.about>h6{
+        padding-top: 8%;
+        text-align: center;
+        margin-top: 8%;
+        font-size: 20px;
+        color: rgb(80, 37, 121);
+    }
+    section.about>h2{
+        text-align: center;
+        color: #333333;
+        margin-top: 15px; 
+        font-size: 45px;
+    }
+    section.about>img{
+        width: 120px;
+        height: 120px;
+        margin-left: 35%;
+        margin-top: 25px;
+    }
+    section.about>h4{
+        display: inline;
+        color: #333333;
+        text-align: center;
+    }
+    section.about>p{
+        width: 40%;
+        text-align: left;
+        color: #333333;
+        margin-top: 15px; 
+        font-size: 13px;
+        margin-left: 45%;
+        direction: ltr;
+    }
+    section.about>span{
+        text-align: center;
+        margin-left:50px ;
+    }
+    /*******************end about********************/
+    /******************footer*****************/
+    footer.footer{
+        min-width: 100%;
+        height: 350px;
+        background: url("Images/wave.svg")no-repeat center center ;
+        background-size: cover;
+        position: absolute;
+    }
+    footer.footer>span{
+        color:whitesmoke;
+        font-family: 'Courier New', Courier, monospace;
+        position: absolute;
+        bottom: 25px;
+        left: 25px;
+        font-size: 23px;
+
+    }
+    /******************end footer*****************/  
+}
