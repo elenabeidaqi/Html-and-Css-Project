@@ -453,6 +453,7 @@
         background-color:#313763;
         position: fixed;
         top: 0;
+        z-index: 999;
     }
     nav.navbar>a.navbar-brand>img{
         width: 75px;
@@ -895,6 +896,7 @@
         background-color: #313763;
         position: fixed;
         top: 0;
+        z-index: 999;
     }
     nav.navbar>a.navbar-brand>img{
         width: 73px;
@@ -1322,9 +1324,10 @@
         flex-direction: column;
         justify-content: flex-start;
         background-color:#313763;
+        z-index: 999;
       /*  position: fixed;
         top: 0;
-        z-index: 999;*/
+        */
     }
     nav.navbar>a.navbar-brand>img{
         width: 65px;
@@ -1766,6 +1769,7 @@
         flex-direction: column;
         justify-content: space-between;
         background-color:#313763;
+        z-index: 999;
     }
     nav.navbar>a.navbar-brand>img{
         width: 55px;
